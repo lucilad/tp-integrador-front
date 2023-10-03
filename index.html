@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TP Integrador Front </title>
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark p-3">
+    <div class="container-fluid ">
+      <a class="navbar-brand fw-bold" href="#">
+        <img class="d-inline-block  " src="assets/img/phone-office-icon.svg" alt="icono telefono" >
+        DUNDER MIFFLIN
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#paper-company">Paper Company</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-us">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#location">Location</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#become-an-intern">Become an intern</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="#">Buy products</a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <section id="paper-company">
+      <div class="card bg-dark text-white">
+        <img src="assets/img/theoffice.jpg" class="card-img opacity-25 object-fit-cover img-fluid"
+          alt="the office" />
+        <div class="card-img-overlay">
+          <div class="h-100 container text-end d-flex flex-column  justify-content-center fs-5">
+            <h1 class="card-title">DUNDER MIFFLIN, Paper Company Inc.</h1>
+            <p class="card-text">
+              DUNDER MIFFLIN, Inc. provides its customers quality office and information technology
+              products, furniture, printing values and the expertise required for making informed buying decisions.
+              We provide our products and services with a dedication to the highest degree of integrity and quality of
+              customer satisfaction, developing long-term professional relationships with employees that develop pride,
+              creating a stable working enviroment and company spirit.
+            </p>
+            <div class="d-flex flex-wrap gap-2 justify-content-end">
+              <button type="button" class="btn btn-outline-light px-3">Become an intern</button>
+              <button type="button" class="btn btn-primary px-3">Buy products</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about-us" class=" mt-3">
+      <p class="mb-1 text-center"> KNOW THE </p>
+      <h2 class="text-center"> STAFF </h2>
+      <div class="container mx-auto d-flex">
+        <div class="card-group gap-4 ">
+          <div class="card">
+            <img src="assets/img/michaelscott.jpg" class="card-img-top" alt="Michael Scott">
+            <div class="card-body">
+              <div >
+                <span class="badge text-bg-primary"> Regional Manager</span>
+                <span class="badge text-bg-warning">World's best boss</span>
+              </div>
+              <h5 class="card-title">Michael Scott</h5>
+              <p class="card-text">"Limitless paper in a paperless world"
+              </p>
+            </div>
+          </div>
+          <div class="card ">
+            <img src="assets/img/jimhalpert.jpg" class="card-img-top " alt="Jim Halpert">
+            <div class="card-body">
+              <div>
+                <span class="badge text-bg-primary"> Sales Rep.</span>
+                <span class="badge text-bg-danger">Athlead</span>
+              </div>
+              <h5 class="card-title">Jim Halpert</h5>
+              <p class="card-text"> "I am about to do something very bold in this job that I've never done before: try".</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/img/dwightschrute.jpg" class="card-img-top" alt="Dwight Schrute">
+            <div class="card-body">
+              <div>
+                <span class="badge text-bg-primary"> Sales Rep.</span>
+                <span class="badge text-bg-primary">Assistant to the Regional Manager</span>
+              </div>
+              <h5 class="card-title">Dwight Schrute</h5>
+              <p class="card-text">"D.W.I.G.H.T. Determined. Worker. Intense. Good worker. Hard worker. Terrific."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="location" class="mt-5">
+      <div class="card mb-3">
+        <div class="row g-0 ">
+          <div class="col-6  ">
+            <img src="assets/img/building.jpg" class="h-100 w-100" alt="Paper Company building" >
+          </div>
+          <div class="col-6 text-bg-dark ">
+            <div class="card-body ">
+              <h3 class="card-title">Scranton, PA.</h3>
+              <p class="card-text">Dunder Mifflin Inc. is a mid-cap regional paper and office supply
+                distributor with an emphasis on servicing small-business clients. With a corporate office in New York
+                City, Dunder Mifflin has branches in Akron, Ohio; Nashua, New Hampshire; Rochester, New York; Scranton,
+                Pennsylvania; Syracuse, New York; and Utica, New York</p>
+
+              <button type="button" class="btn btn-outline-light mt-1">Learn more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="become-an-intern" class=" mt-3">
+      <p class="mb-1 text-center"> BECOME AN </p>
+      <h2 class="text-center"> INTERN </h2>
+      <p class="text-center"> Sign up and tell us why you want to join us! </p>
+      <div class="container">
+        <div class="row g-2 justify-content-center">
+          <div class="col-3">
+            <input type="text" class="form-control" id="name" placeholder="Name">
+          </div>
+          <div class="col-3">
+            <input type="text" class="form-control" id="last-name" placeholder="Last name">
+          </div>
+        </div>
+        <div class="mb-3 col-6 mx-auto mt-0">
+          <label for="textarea" class="form-label"></label>
+          <textarea class="form-control" id="textarea" rows="3" placeholder="Leave your comment here"></textarea>
+          <p class="text-black-50 mb-0">This information will not be shared</p>
+          <button type="button" class=" col-12 mt-3 btn btn-primary p-2 ">Submit</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="mt-3 p-3 bg-dark bg-gradient">
+    <div class="container" data-bs-theme="dark">
+      <ul class="nav justify-content-center">
+        <li class="nav-item"><a href="#" class="nav-link text-muted">Terms and Conditions</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-muted">Contact Us</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-muted">Privacy Policy</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-muted">Refund Policy</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-muted">FAQs</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
