@@ -6,24 +6,20 @@
 /*# sourceMappingURL=bootstrap.min.css.map */
 
 
-/*Small devices (landscape phones, less than 768px)*/
 @media screen and (max-width: 768px) {
     .tamaño {
         font-size: 0.825rem;
     }
 }
 
-/*Medium devices (tablets, less than 992px)*/
 @media screen and (min-width: 769px) and (max-width: 992px) {
     .tamaño {
         font-size: 1.125rem;
     }
 }
 
-/*Large devices (desktops, less than 1200px)*/
-@media screen and (min-width: 993px){ 
+@media screen and (min-width: 993px) {
     .tamaño {
         font-size: 1.25rem;
     }
 }
-
