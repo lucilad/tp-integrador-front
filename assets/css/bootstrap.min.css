@@ -23,3 +23,24 @@
         font-size: 1.25rem;
     }
 }
+
+#products{
+
+    margin-top:3em;
+}
+
+#cards{
+    width:15em;
+}
+
+#golden{
+    color:rgb(234,199,91);
+}
+
+#img:hover {
+    transform:scale(1.05);
+}
+
+#text-j{
+    text-align:justify ;
+}
